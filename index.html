@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>OpenAI Images</title>
+
+        <!-- add icon link -->
+        <link
+            rel="icon"
+            href="https://media.discordapp.net/attachments/1061930000581918720/1171802726292791336/image.png?ex=655e0154&is=654b8c54&hm=4ef203238e5c0f79e8cbd9c562f26c4fef7a881c57b9820738d9e506b3ca5542&=&width=583&height=552"
+            type="image/x-icon"
+        />
+
+        <link rel="stylesheet" href="index.css" />
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <section>
+            <h1 class="title">Generate images with OpenAI</h1>
+
+            <div id="images">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="input">
+                <input
+                    type="text"
+                    id="inpt"
+                    placeholder="Enter your image description here"
+                />
+                <button onclick="getImages()">Generate</button>
+            </div>
+        </section>
+    </body>
+</html>
