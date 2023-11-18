@@ -12,7 +12,7 @@ const getImages = async () => {
         body: JSON.stringify({
             prompt: inpt.value,
             n: 3,
-            size: "1024x1024",
+            size: "256x256",
         }),
     };
 
