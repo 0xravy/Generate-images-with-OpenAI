@@ -1,4 +1,4 @@
-const api = "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";
+let api = "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";
 const inpt = document.getElementById("inpt");
 const images = document.getElementById("images");
 
